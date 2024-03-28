@@ -2,6 +2,11 @@ import React from 'react'
 import Bg from './components/Bg'
 import Foreground from './components/Foreground'
 import Card from './components/Card'
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+
 
 function App() {
   return (
@@ -15,5 +20,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
